@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>File Upload</title>
+</head>
+<body>
+   <img src=https://domesdaystorage.blob.core.windows.net/domesdayblob/domesday printing logo1.jpg"" alt="logo"">
+   <h1>Welcome to Domesday Printing</h1>
+   <form action="upload.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="uploadedFile">
+      <input type="submit" value="Upload">
+   </form>
+</body>
+</html>
